@@ -13,4 +13,3 @@ app.listen(port,()=>{
     console.log("Rodando")
 })
 
-// Para rodar o projeto no navegador http://localhost:8000/html/
