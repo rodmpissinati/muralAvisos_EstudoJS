@@ -5,7 +5,7 @@ module.exports = {posts: [
          return this.posts
     },
     
-    newPost(id, title, desc){ // correção não havia passado no parãmetro
+    newPost(id, title, desc){ 
         this.posts.push({id: generateID(), title, desc})
     }
 }
